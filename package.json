@@ -1,0 +1,25 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisparra-repo/music-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisparra-repo/music-player/issues"
+  },
+  "homepage": "https://github.com/denisparra-repo/music-player#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "googleapis": "^100.0.0",
+    "stream": "0.0.2"
+  }
+}
