@@ -62,7 +62,7 @@ $('#uploadForm').submit(function() {
       status('Error: ' + xhr.status);
     },
     success: function(response) {
-      $("#status").empty().text('File was uploaded succesfully');
+      $("#status").empty().text('File was uploaded');
           console.log(response);
       $.ajax({
         dataType: 'json',
