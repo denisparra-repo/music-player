@@ -56,7 +56,7 @@ function playMusicFromList(evt) {
 }
 
 $('#uploadForm').submit(function() {
-  $("#status").empty().text("File is uploading...");
+  $("#status").empty().text("File is uploading..");
   $(this).ajaxSubmit({
     error: function(xhr) {
       status('Error: ' + xhr.status);
